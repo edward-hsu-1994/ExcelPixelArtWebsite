@@ -8,9 +8,10 @@
 <body>
     <h2>Excel像素藝術轉換</h2>
     <p>將圖片轉換成EXCEL格式的圖片</p>
+    <p>https://github.com/XuPeiYao/ExcelPixelArtWebsite/</p>
     <form action="convert" method="post" enctype="multipart/form-data">
-        選擇圖片檔案上傳:<br/>
-        <input type="file" name="fileToUpload" id="fileToUpload"/><br/>
+        選擇圖片檔案上傳(bmp,jpg,png,gif):<br/>
+        <input type="file" name="fileToUpload" id="fileToUpload" accept="image/bmp,image/gif, image/jpeg, image/png"/><br/>
 
         <input type="submit" value="上傳並下載EXCEL檔案" name="submit">
     </form>
