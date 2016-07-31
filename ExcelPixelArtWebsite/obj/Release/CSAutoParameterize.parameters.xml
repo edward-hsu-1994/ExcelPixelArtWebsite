@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection 應用程式在 web.config 中用來存取資料庫的連接字串。" defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-ExcelPixelArtWebsite-20160731095859.mdf;Initial Catalog=aspnet-ExcelPixelArtWebsite-20160731095859;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\xupeiyao\\Documents\\GitHub\\ExcelPixelArtWebsite\\ExcelPixelArtWebsite\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
